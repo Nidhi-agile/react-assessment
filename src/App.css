@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+p.errMsg {
+  color: red;
+}
+
+a.nav-bar-link.active {
+  color: #0d6efd !important;
+  font-weight: 700;
+}
+
+ul.navbar {
+  flex-flow: column;
+}
+
+ul.navbar li {
+  padding: 10px 0;
+}
+
+ul.navbar li a.nav-bar-link {
+  color: #000;
+}
+
+.App a {
+  text-decoration: none;
+}
+.col-8 {
+  margin-top: 5% !important;
+}
+
+.searchInput {
+  float: left;
+}
+
+.addNewBtn {
+  float: right;
+  margin-bottom: 30px;
+}
+.row.chngPwd, .row.newProd, .row.newUser, .row.loginPage {
+  width: 65%;
+  margin: 50px auto;
+  border: 1px solid #dee2e6;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.row .mb-3 {
+  text-align: left;
+}
